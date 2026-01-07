@@ -1,0 +1,171 @@
+/* -------------------- BASE VARIABLES -------------------- */
+:root {
+  --bg-solid: #262a2f;              /* Uniform background color across the entire app */
+  --border-soft: rgba(255,255,255,0.08);
+  --shadow-soft: rgba(0,0,0,0.55);
+
+  --text-main: #ffffff;
+  --text-soft: rgba(255,255,255,0.88);
+
+  --card-radius: 14px;
+  --card-max-width: 56em;
+  --spacing-regular: 3em;
+  --spacing-small: 1.2em;
+
+  --btn-bg: rgba(255,255,255,0.08);
+  --btn-bg-hover: rgba(255,255,255,0.14);
+  --btn-icon: #ffffff;
+  --btn-size: 46px;
+  --btn-size-mobile: 34px;
+}
+
+/* -------------------- APP BACKGROUND -------------------- */
+.card {
+  background-color: var(--bg-solid) !important;
+  cursor: default;
+  padding: var(--spacing-small);
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Increased padding on desktop for better spacing */
+html:not(.mobile) .card {
+  padding: var(--spacing-regular);
+}
+
+/* -------------------- FLASHCARD CONTAINER -------------------- */
+.MvJ-flashcard {
+  margin: 1.5em auto 0 auto;
+  max-width: var(--card-max-width);
+
+  background-color: var(--bg-solid);
+  border-radius: var(--card-radius);
+  border: 1px solid var(--border-soft);
+  box-shadow: 0 12px 28px var(--shadow-soft);
+
+  text-align: center;
+  padding: 3.2em;
+  opacity: 1;
+}
+
+/* -------------------- DIVIDER -------------------- */
+.MvJ-divider,
+.MvJ-divider--answer {
+  height: 0;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+  width: 100%;
+  margin: 18px auto;
+}
+
+/* -------------------- IMAGE (SLIGHTLY LARGER THAN BASIC) -------------------- */
+img {
+  border-radius: 0.5em;
+  display: block;
+  margin: var(--spacing-regular) auto;
+
+  max-width: 400px;
+  max-height: 400px;
+
+  object-fit: contain;
+}
+
+/* -------------------- PREMIUM REPLAY BUTTON -------------------- */
+.replay-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.replay-button svg {
+  width: var(--btn-size);
+  height: var(--btn-size);
+  border-radius: 999px;
+
+  background: var(--btn-bg);
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,0.12),
+    0 6px 14px rgba(0,0,0,0.55);
+
+  transition: transform 0.18s ease, background 0.18s ease;
+}
+
+.replay-button svg:hover {
+  background: var(--btn-bg-hover);
+  transform: translateY(-1px) scale(1.05);
+}
+
+/* Remove the default circular SVG background */
+.replay-button svg circle {
+  display: none;
+}
+
+.replay-button svg path {
+  fill: var(--btn-icon);
+  transform: scale(0.6) translate(20px, 20px);
+}
+
+/* Keyboard focus accessibility */
+.replay-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.25);
+}
+
+/* -------------------- WORD (FRONT SIDE) -------------------- */
+.spacer {
+  height: 26px;
+}
+
+.word-front {
+  display: block !important;
+  opacity: 1 !important;
+
+  text-align: center !important;
+  font-size: 30px !important;
+  font-weight: 500 !important;
+  color: var(--text-main) !important;
+
+  line-height: 1.15 !important;
+
+  /* Slight character spacing to improve readability */
+  letter-spacing: 0.08em;
+}
+
+/* -------------------- SENTENCE (BACK SIDE) -------------------- */
+.sentence-back {
+  opacity: 1 !important;
+  text-align: center !important;
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  color: var(--text-main) !important;
+
+  line-height: 1.5 !important;
+  letter-spacing: 0.05em;
+}
+
+/* -------------------- RESPONSIVE (MOBILE) -------------------- */
+@media (max-width: 600px) {
+  .MvJ-flashcard {
+    padding: 1.6em;
+    max-width: 92%;
+  }
+
+  .replay-button svg {
+    width: var(--btn-size-mobile);
+    height: var(--btn-size-mobile);
+  }
+
+  .word-front {
+    font-size: 22px !important;
+  }
+
+  .sentence-back {
+    font-size: 18px !important;
+  }
+
+  img {
+    max-width: 280px;
+    max-height: 280px;
+  }
+}
