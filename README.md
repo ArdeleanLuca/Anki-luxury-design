@@ -21,7 +21,7 @@ while staying simple and distraction-free.
 
 ## 📂 Versions
 
-### 🔤 With optional text
+### ⭐ With optional text
 Located in `with-optional-text/`
 
 This version includes additional helper text on the front and back cards.
@@ -34,15 +34,16 @@ a **gradual exposure** to symbols instead of full immersion from day one.
 
 **Preview:**
 
-**Front**
-![With text front](screenshots/with-text-front.png)
 
-**Back**
-![With text back](screenshots/with-text-back.png)
+#### ✨ FRONT
+<img src="screenshots/with-text-front.png" width="360" alt="With text front">
+
+#### ✨ BACK
+<img src="screenshots/with-text-back.png" width="360" alt="With text back">
 
 ---
 
-### 🧘 Without optional text
+### ⭐ Without optional text
 Located in `without-optional-text/`
 
 A clean, distraction-free version without any extra text.
@@ -54,11 +55,12 @@ Ideal for advanced learners or full immersion study.
 
 **Preview:**
 
-**Front**
-![No text front](screenshots/no-text-front.png)
 
-**Back**
-![No text back](screenshots/no-text-back.png)
+#### ✨ FRONT
+<img src="screenshots/no-text-front.png" width="360" alt="No text front">
+
+#### ✨ BACK
+<img src="screenshots/no-text-back.png" width="360" alt="No text back">
 
 ---
 
