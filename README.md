@@ -25,12 +25,11 @@ while staying simple and distraction-free.
 Located in `with-optional-text/`
 
 This version includes additional helper text on the front and back cards.
-I personally use this variant because I am still learning **kana** and want
-a **gradual exposure** to symbols instead of full immersion from day one.
 
 **Files:**
 - `front.html`
 - `back.html`
+- `styling.css`
 
 **Preview:**
 
@@ -54,6 +53,7 @@ Ideal for advanced learners or full immersion study.
 **Files:**
 - `front.html`
 - `back.html`
+- `styling.css`
 
 **Preview:**
 
