@@ -36,11 +36,11 @@ a **gradual exposure** to symbols instead of full immersion from day one.
 
 
 <p align="center">
-  <b>✨ FRONT</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>✨ BACK</b><br><br>
-  <img src="screenshots/with-text-front.png" width="440" alt="With text front">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/with-text-back.png" width="440" alt="With text back">
+  <img src="screenshots/with-text-front.png" width="900" alt="With text front">
+</p>
+
+<p align="center">
+  <img src="screenshots/with-text-back.png" width="900" alt="With text back">
 </p>
 
 ---
@@ -59,11 +59,11 @@ Ideal for advanced learners or full immersion study.
 
 
 <p align="center">
-  <b>✨ FRONT</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>✨ BACK</b><br><br>
-  <img src="screenshots/no-text-front.png" width="440" alt="No text front">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/no-text-back.png" width="440" alt="No text back">
+  <img src="screenshots/no-text-front.png" width="900" alt="No text front">
+</p>
+
+<p align="center">
+  <img src="screenshots/no-text-back.png" width="900" alt="No text back">
 </p>
 
 ---
